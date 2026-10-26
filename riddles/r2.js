@@ -4,3 +4,10 @@
 // - name (string)
 // - taskDescription (string, the riddle text shown to the player)
 // - correctAnswer (string)
+
+export default {
+    id: 2,
+    name: "Logic Riddle",
+    taskDescription: "What gets wetter the more it dries?",
+    correctAnswer: "towel"
+  };
