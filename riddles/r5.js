@@ -8,6 +8,7 @@
 export default {
     id: 5,
     name: "Capital City",
+    difficulty: "hard",
     taskDescription: "What is the capital of France?",
     correctAnswer: "Paris"
   };

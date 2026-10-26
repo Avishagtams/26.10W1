@@ -7,6 +7,7 @@
 export default {
     id: 3,
     name: "Colors",
+    difficulty: "medium",
     taskDescription: "What color do you get when you mix red and yellow?",
     correctAnswer: "orange"
   };

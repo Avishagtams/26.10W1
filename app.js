@@ -24,8 +24,9 @@ const playerName = prompt("What is your name? ");
 
 const player = new Player(playerName);
 console.log(`Hello ${player.name}, let's start!\n`);
-
-for (const r of allRiddles) {
+const level = prompt("Choose difficulty: easy / medium / hard: ").trim().toLowerCase();
+const filteredRiddles = allRiddles.filter(riddle => riddle.difficulty === level);
+for (const r of filteredRiddles) {
 
     const startTime = Date.now();
 

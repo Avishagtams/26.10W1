@@ -8,6 +8,7 @@
 export default {
     id: 2,
     name: "Logic Riddle",
+    difficulty: "easy",
     taskDescription: "What gets wetter the more it dries?",
     correctAnswer: "towel"
   };

@@ -8,6 +8,7 @@
 export default {
     id: 4,
     name: "Days",
+    difficulty: "medium",
     taskDescription: "How many days are in a week?",
     correctAnswer: "7"
   };
