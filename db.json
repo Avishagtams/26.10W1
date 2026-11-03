@@ -1,0 +1,51 @@
+{
+  "riddles": [
+    {
+      "id": "1",
+      "name": "Easy Math",
+      "taskDescription": "What is 5 + 3?",
+      "correctAnswer": "8"
+    },
+    {
+      "id": "2",
+      "name": "Logic Riddle",
+      "taskDescription": "What gets wetter the more it dries?",
+      "correctAnswer": "towel"
+    },
+    {
+      "id": "3",
+      "name": "Colors",
+      "taskDescription": "What color do you get when you mix red and yellow?",
+      "correctAnswer": "orange"
+    },
+    {
+      "id": "4",
+      "name": "Days",
+      "taskDescription": "How many days are in a week?",
+      "correctAnswer": "7"
+    },
+    {
+      "id": "5",
+      "name": "Capital City",
+      "taskDescription": "What is the capital of France?",
+      "correctAnswer": "Paris"
+    }
+  ],
+  "players": [
+    {
+      "name": "fd",
+      "lowestTime": null,
+      "id": 1
+    },
+    {
+      "name": "ss",
+      "lowestTime": null,
+      "id": 2
+    },
+    {
+      "name": "sxd",
+      "lowestTime": null,
+      "id": 3
+    }
+  ]
+}
