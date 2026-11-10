@@ -1,7 +1,6 @@
 import { Player } from '../classes/Player.js';
 
-const BASE_URL = 'http://localhost:3000/players';
-
+const BASE_URL = 'http://localhost:3000/api/players';
 export async function getAllPlayers() {
   try {
     const res = await fetch(BASE_URL);

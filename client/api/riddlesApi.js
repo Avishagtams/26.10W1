@@ -1,7 +1,6 @@
 import { Riddle } from '../classes/Riddle.js';
 
-const BASE_URL = 'http://localhost:3000/riddles';
-
+const BASE_URL = 'http://localhost:3000/api/riddles';
 export async function getAllRiddles() {
   try {
     const res = await fetch(BASE_URL);
